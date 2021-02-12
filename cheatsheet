@@ -39,4 +39,4 @@ kubeadm join --token <token> <master-ip>:<master-port>    # Join a node to your 
 kubectl create namespace <namespace>                      # Create namespace <name>
 kubectl taint nodes --all node-role.kubernetes.io/master- # Allow Kubernetes master nodes to run pods
 kubeadm reset                                             # Reset current state
-kubectl get secrets                                       # List all secrets
+kubectl get secrets                                       # List all secrets 
